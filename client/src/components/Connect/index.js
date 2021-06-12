@@ -1,9 +1,12 @@
 import React from "react";
 
 
-function ConnectInfo() {
+function Connect() {
 
     return (
+        <div>
+            <h1>Let's Connect</h1>
+        </div>
 
     );
 }

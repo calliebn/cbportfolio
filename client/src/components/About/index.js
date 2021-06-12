@@ -1,9 +1,12 @@
 import React from "react";
 
 
-function AboutInfo() {
+function About() {
 
     return (
+        <div>
+            <h1>About</h1>
+        </div>
 
     );
 }
