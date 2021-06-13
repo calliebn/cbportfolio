@@ -1,0 +1,29 @@
+nav {
+  background-color: #123c69;
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fed766;
+}
+
+ul {
+  align-items: baseline;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  font-family: "Poppins", sans-serif;
+  padding-right: 20px;
+  text-align: right;
+}
+
+.navbar-toggler-icon {
+  color: #fff;
+}
