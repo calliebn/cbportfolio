@@ -2,6 +2,7 @@ nav {
   background-color: #123c69;
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
 }
 
 a {

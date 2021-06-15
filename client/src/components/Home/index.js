@@ -1,11 +1,18 @@
 import React from "react";
+import './style.css';
 
 
 function Home() {
 
     return (
-        <div>
-            <h1>Home Page</h1>
+        <div className="bkgrnd-color">
+            <div className="image-container">
+                <img src="../../assets/jumbo_back.jpg" class="img-fluid" alt="abstract blue background" />
+                <div className="text">
+                    <h1>Callie</h1>
+                    <h1>Nipper</h1>
+                </div>
+            </div>
         </div>
 
     );

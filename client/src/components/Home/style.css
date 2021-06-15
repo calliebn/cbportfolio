@@ -1,0 +1,26 @@
+body {
+  background-color: #123c69;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container .text {
+  position: absolute;
+  z-index: 90;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 40%;
+  text-align: right;
+  width: 60%;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 4em;
+  line-height: 0.9em;
+}
