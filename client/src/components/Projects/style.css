@@ -1,0 +1,24 @@
+.projects-back {
+  background-color: #eee2dc;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  padding: 40px;
+  color: #ac3b61;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.i {
+  color: #ac3b61;
+}
+
+.i:hover {
+  color: #ac3b61;
+}
+
+.img-container img {
+  width: 100%;
+  height: auto;
+}
