@@ -1,5 +1,6 @@
 .card {
   margin: 20px;
+  box-shadow: 1px 1px #edc7b7;
 }
 
 .deploy {

@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Stashbusters",
-        "image": "../../assets/",
+        "image": "../../assets/stash.png",
         "deployed": "https://nameless-mesa-29731.herokuapp.com/",
         "github": "https://github.com/calliebn/stashbusters"
     },
@@ -42,8 +42,8 @@
     {
         "id": 6,
         "name": "Employee Directory",
-        "image": "../../assets/emp_dir.jpg",
-        "deployed": "https://github.com/calliebn/employee_directory",
+        "image": "../../assets/emp_dir.png",
+        "deployed": "https://calliebn.github.io/employee_directory/",
         "github": "https://github.com/calliebn/employee_directory"
     }
 ]

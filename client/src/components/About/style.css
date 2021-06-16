@@ -1,0 +1,12 @@
+.about-back {
+  background-color: #eee2dc;
+  padding: 30px;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 40px;
+  color: #ac3b61;
+  font-weight: 700;
+  font-size: 3em;
+}

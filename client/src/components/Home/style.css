@@ -24,3 +24,9 @@ h1 {
   font-size: 4em;
   line-height: 0.9em;
 }
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+}

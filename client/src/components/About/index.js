@@ -5,8 +5,8 @@ import "./style.css";
 function About() {
 
     return (
-        <div>
-            <h1 class="title">About Me</h1>
+        <div className="about-back">
+            <h1 className="title">About Me</h1>
             <h2>I'm a fullstack developer from Portland, Oregon</h2>
             <p>I am a Web Developer with a background in Graphic Design. I enjoy creating functional and aesthetically pleasing applications while keeping the User’s experience in mind.</p>
             <p>In diam nulla, iaculis in aliquet vitae, interdum quis nisl. Proin fermentum, sapien quis aliquam pulvinar, est lacus fringilla diam, non pellentesque eros justo in lorem. Phasellus quis porta sapien. Ut id cursus nulla. Vivamus ornare ex a turpis luctus, sit amet rutrum felis suscipit. Duis tempus dignissim porta. Aenean fermentum urna in leo volutpat euismod.</p>
