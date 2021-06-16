@@ -2,12 +2,12 @@ body {
   background-color: #123c69;
 }
 
-.image-container {
+.back-container {
   position: relative;
   display: inline-block;
 }
 
-.image-container .text {
+.back-container .text {
   position: absolute;
   z-index: 90;
   margin: 0 auto;

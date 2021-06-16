@@ -5,16 +5,25 @@ import projects from "../../projects.json"
 
 
 function ProjectInfo() {
-
+    console.log(projects)
     return (
         <div className="projects-back">
             <h1 className="title">Projects</h1>
-            <ProjectCard
-                image={projects[1].image}
-                name={projects[1].name}
-                github={projects[1].github}
-                deployed={projects[1].deployed}
-            />
+            <div className="row">
+                {/* Loop through a static list */}
+                {projects.map(project => (
+
+                    <ProjectCard
+                        key={project.id}
+                        image={project.image}
+                        name={project.name}
+                        github={project.github}
+                        deployed={project.deployed}
+                    />
+
+
+                ))}
+            </div>
         </div>
     );
 }

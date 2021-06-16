@@ -26,7 +26,7 @@
     {
         "id": 4,
         "name": "Carpe Diem",
-        "image": "../../assets/capre_diem.png",
+        "image": "../../assets/carpe_diem.png",
         "deployed": "https://calliebn.github.io/carpe_diem/",
         "github": "https://github.com/calliebn/carpe_diem"
     },
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "name": "Employee Directory",
-        "image": "../../assets/emp_dir.png",
+        "image": "../../assets/emp_dir.jpg",
         "deployed": "https://github.com/calliebn/employee_directory",
         "github": "https://github.com/calliebn/employee_directory"
     }
