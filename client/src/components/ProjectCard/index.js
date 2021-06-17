@@ -4,7 +4,6 @@ import "./styles.css";
 const ProjectCard = (props) => {
     return (
 
-        // <div className="row">
         <div className="col-md-4 col-sm-6">
             <div className="card">
                 <div className="img-container">
@@ -17,7 +16,7 @@ const ProjectCard = (props) => {
                 </div>
             </div>
         </div>
-        // </div>
+
     )
 }
 

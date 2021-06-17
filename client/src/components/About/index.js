@@ -6,34 +6,46 @@ function About() {
 
     return (
         <div className="about-back">
-            <h1 className="title">About Me</h1>
-            <h2>I'm a fullstack developer from Portland, Oregon</h2>
-            <p>I am a Web Developer with a background in Graphic Design. I enjoy creating functional and aesthetically pleasing applications while keeping the User’s experience in mind.</p>
-            <p>In diam nulla, iaculis in aliquet vitae, interdum quis nisl. Proin fermentum, sapien quis aliquam pulvinar, est lacus fringilla diam, non pellentesque eros justo in lorem. Phasellus quis porta sapien. Ut id cursus nulla. Vivamus ornare ex a turpis luctus, sit amet rutrum felis suscipit. Duis tempus dignissim porta. Aenean fermentum urna in leo volutpat euismod.</p>
-            <h1>Skills</h1>
-            <h2>Frontend</h2>
-            <ul>
-                <li>React</li>
-                <li>JavaScript</li>
-                <li>CSS</li>
-                <li>HTML</li>
-            </ul>
-            <h2>Backend</h2>
-            <ul>
-                <li>Node.js</li>
-                <li>Express</li>
-                <li>Git</li>
-                <li>SQL</li>
-                <li>MongoDB</li>
-            </ul>
-            <h2>Other Skills</h2>
-            <ul>
-                <li>Adobe InDesign</li>
-                <li>Adobe Photoshop</li>
-            </ul>
-            <h2>Interests</h2>
-            <p>Reading</p>
-        </div>
+            <div className="box">
+                <img src="../../assets/placeholder.jpg" alt="crocheted self-portrait" />
+            </div>
+            <h1 className="title">Who&#8217;s That Girl?</h1>
+            <h2 className="skills">I&#8217;m a fullstack developer from Portland, Oregon</h2>
+            <p>I am a Web Developer with a background in Graphic Design. I enjoy creating functional and aesthetically pleasing apppcations while keeping the User&#8217;s experience in mind.</p>
+            <p>As a maker at heart, I enjoy creating with lots of different mediums. Coding is an ever-changing medium, it encourages learning.</p>
+            <a className="btn" href="../../assets/resume_052021.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+            <div className="trades">
+                <h2>Skills</h2>
+                <h2 className="skills">Frontend</h2>
+                <div className="skillset">
+                    <p>React</p>
+                    <p>JavaScript</p>
+                    <p>CSS</p>
+                    <p>HTML</p>
+                </div>
+                <h2 className="skills">Backend</h2>
+                <div className="skillset">
+                    <p>Node.js</p>
+                    <p>Express</p>
+                    <p>Git</p>
+                    <p>SQL</p>
+                    <p>MongoDB</p>
+                </div>
+                <h2 className="skills">Other Skills</h2>
+                <div className="skillset">
+                    <p>Adobe InDesign</p>
+                    <p>Adobe Photoshop</p>
+                    <p>Salesforce</p>
+                </div>
+                <h2 className="skills">Interests</h2>
+                <div className="skillset">
+                    <p>Reading</p>
+                    <p>Roller Skating</p>
+                    <p>Fiber Arts</p>
+                    <p>Cement Pouring</p>
+                </div>
+            </div>
+        </div >
 
     );
 }

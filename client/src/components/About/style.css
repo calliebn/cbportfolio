@@ -1,6 +1,9 @@
 .about-back {
   background-color: #eee2dc;
+  max-height: 100%;
+  width: 100%;
   padding: 30px;
+  padding-bottom: 60px;
 }
 
 .title {
@@ -9,4 +12,72 @@
   color: #ac3b61;
   font-weight: 700;
   font-size: 3em;
+}
+
+p {
+  font-family: "Open-Sans", sans-serif;
+  font-size: 1.2em;
+  line-height: 1.8em;
+}
+
+.skillset {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.skillset p {
+  font-family: "Open-Sans", sans-serif;
+  padding-right: 20px;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.skills {
+  color: #123c69;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: #ac3b61;
+  font-weight: 700;
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+.btn {
+  font-family: "Open-Sans", sans-serif;
+  background-color: #123c69;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.btn:hover {
+  background-color: #ac3b61;
+  color: #fff;
+}
+
+.box {
+  float: right;
+  margin-left: 40px;
+  margin-right: 60px;
+  margin-bottom: 50px;
+  width: 40%;
+  border: 1px solid #ac3b61;
+}
+
+.box img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    float: none;
+    width: 80%;
+    margin-right: 30px;
+  }
 }
