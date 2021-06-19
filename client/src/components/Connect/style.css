@@ -1,0 +1,21 @@
+.connect-back {
+  background-color: #eee2dc;
+  min-height: 100vh;
+  width: 100%;
+  padding: 30px;
+  padding-bottom: 60px;
+}
+
+.icons {
+  max-height: 50px;
+  padding-right: 40px;
+}
+
+.mailcall {
+  font-size: 60px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+}
