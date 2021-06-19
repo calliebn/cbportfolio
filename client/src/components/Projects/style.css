@@ -1,5 +1,6 @@
 .projects-back {
   background-color: #eee2dc;
+  min-height: 100vh;
   padding: 30px;
 }
 

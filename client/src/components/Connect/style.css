@@ -3,7 +3,6 @@
   min-height: 100vh;
   width: 100%;
   padding: 30px;
-  padding-bottom: 60px;
 }
 
 .icons {
@@ -13,6 +12,11 @@
 
 .mailcall {
   font-size: 60px;
+  color: #000;
+}
+
+.mailcall:hover {
+  color: #ac3b61;
 }
 
 .icons {
