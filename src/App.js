@@ -11,7 +11,7 @@ import Nav from './components/Nav';
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={'/cbportfolio/'}>
         <div>
           <Nav />
           <Switch>
