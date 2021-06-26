@@ -7,12 +7,11 @@ function About() {
     return (
         <div className="about-back">
             <div className="box">
-                <img src="../../assets/placeholder.jpg" alt="crocheted self-portrait" />
+                <img src="../../assets/cbn.jpg" alt="portrait of Callie Nipper" />
             </div>
             <h1 className="title">Who&#8217;s That Girl?</h1>
             <h2 className="skills">I&#8217;m a fullstack developer from Portland, Oregon</h2>
-            <p>I am a Web Developer with a background in Graphic Design. I enjoy creating functional and aesthetically pleasing apppcations while keeping the User&#8217;s experience in mind.</p>
-            <p>As a maker at heart, I enjoy creating with lots of different mediums. Coding is an ever-changing medium, it encourages learning.</p>
+            <p>I am a Web Developer with a background in Graphic Design. I enjoy creating functional and aesthetically pleasing applications while keeping the User&#8217;s experience in mind.</p>
             <a className="btn" href="../../assets/resume_052021.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
             <div className="trades">
                 <h2>Skills</h2>
