@@ -12,7 +12,7 @@ const ProjectCard = (props) => {
                 <div className="card-body">
                     <a href={props.deployed}><h3>{props.name}</h3></a>
                     <div className="icons">
-                        <a href={props.github} target="_blank" rel="noopener noreferrer"><img className="gitcat" src="../../assets/github.png" alt="GitHub Logo" /></a>
+                        <a href={props.github} target="_blank" rel="noopener noreferrer"><img className="gitcat" src="./assets/github.png" alt="GitHub Logo" /></a>
                         <a href={props.deployed} target="_blank" rel="noopener noreferrer"><i className="deploy fas fa-external-link-alt"></i></a>
                     </div>
                 </div>

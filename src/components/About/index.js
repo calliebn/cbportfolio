@@ -7,7 +7,7 @@ function About() {
     return (
         <div className="about-back">
             <div className="box">
-                <img src="../../assets/cbn.jpg" alt="portrait of Callie Nipper" />
+                <img src="./assets/cbn.jpg" alt="portrait of Callie Nipper" />
             </div>
             <h1 className="title">Who&#8217;s That Girl?</h1>
             <h2 className="skills">I&#8217;m a fullstack developer from Portland, Oregon</h2>
