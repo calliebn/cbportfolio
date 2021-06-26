@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Stashbusters",
-        "image": "../../assets/stash.png",
+        "image": "./assets/stash.png",
         "deployed": "https://nameless-mesa-29731.herokuapp.com/",
         "github": "https://github.com/calliebn/stashbusters"
     },
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "Tech Blog",
-        "image": "../../assets/tech_blog.png",
+        "image": "./assets/tech_blog.png",
         "deployed": "https://immense-citadel-93901.herokuapp.com/",
         "github": "https://github.com/calliebn/tech_blog"
     },
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "name": "Budget Tracker",
-        "image": "../../assets/budget_app.png",
+        "image": "./assets/budget_app.png",
         "deployed": "https://enigmatic-tor-49600.herokuapp.com/",
         "github": "https://github.com/calliebn/budget_tracker"
     },
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "name": "Carpe Diem",
-        "image": "../../assets/carpe_diem.png",
+        "image": "./assets/carpe_diem.png",
         "deployed": "https://calliebn.github.io/carpe_diem/",
         "github": "https://github.com/calliebn/carpe_diem"
     },
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "name": "JavaScript Quiz",
-        "image": "../../assets/quiz.png",
+        "image": "./assets/quiz.png",
         "deployed": "https://calliebn.github.io/javascript_quiz/",
         "github": "https://github.com/calliebn/javascript_quiz"
     },
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "name": "Employee Directory",
-        "image": "../../assets/emp_dir.png",
+        "image": "./assets/emp_dir.png",
         "deployed": "https://calliebn.github.io/employee_directory/",
         "github": "https://github.com/calliebn/employee_directory"
     }
