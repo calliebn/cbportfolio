@@ -12,6 +12,9 @@ function Connect() {
                 <a href="https://www.linkedin.com/in/callie-nipper-7b20406/" target="_blank" rel="noopener noreferrer"><img className="icons" src="./assets/LI-In-Bug.png" alt="LinkedIn Logo" /></a>
                 <a href="mailto:callie.nipper@gmail.com"><i className="far fa-envelope mailcall"></i></a>
             </div>
+            <div className="phone">
+                <a href="tel:717-201-6579">717.201.6579</a>
+            </div>
         </div>
 
     );

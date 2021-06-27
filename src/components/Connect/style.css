@@ -16,11 +16,22 @@
   padding-right: 40px;
 }
 
-.mailcall:hover {
+.mailcall:hover,
+.phone a:hover {
   color: #ac3b61;
 }
 
 .icons {
   display: flex;
   flex-direction: row;
+}
+
+.phone {
+  font-family: "Open-Sans", sans-serif;
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+.phone a {
+  color: #000000;
 }
