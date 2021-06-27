@@ -3,8 +3,8 @@ import "./App.css";
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import Home from './components/Home';
-import Project from './components/Projects';
-import About from './components/About';
+import Project from './pages/Projects';
+import About from './pages/About';
 import Connect from './components/Connect';
 import Nav from './components/Nav';
 

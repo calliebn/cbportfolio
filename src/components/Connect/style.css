@@ -13,6 +13,7 @@
 .mailcall {
   font-size: 60px;
   color: #000;
+  padding-right: 40px;
 }
 
 .mailcall:hover {

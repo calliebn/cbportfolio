@@ -1,8 +1,7 @@
 import React from "react";
 import "./style.css";
 
-
-function About() {
+function AboutInfo() {
 
     return (
         <div className="about-back">
@@ -49,4 +48,4 @@ function About() {
     );
 }
 
-export default About;
+export default AboutInfo;

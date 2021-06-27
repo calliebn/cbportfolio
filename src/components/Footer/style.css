@@ -1,0 +1,21 @@
+.back {
+  background-color: #123c69;
+  padding: 10px;
+  margin: 0;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 1em;
+  text-align: right;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fed766;
+}
