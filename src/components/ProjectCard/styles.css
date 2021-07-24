@@ -20,18 +20,18 @@
 /* .gitcat {
   width: 40px;
   padding-right: 20px;
-} */
+}
 
 .icons {
   display: flex;
   flex-direction: row;
-}
+} */
 
 /* Controls the visible portion of the animation */
 .view {
   float: left;
   border: 10px solid #fff;
-  overflow: hidden;
+  overflow: scroll;
   position: relative;
   text-align: center;
   cursor: default;
@@ -40,7 +40,7 @@
 .view .mask,
 .view .content {
   position: absolute;
-  overflow: hidden;
+  overflow: scroll;
   top: 0;
   left: 0;
 }
@@ -51,33 +51,35 @@
 }
 
 .view h2 {
-  color: #fff;
   text-align: center;
   position: relative;
-  font-size: 18px;
+  font-size: 1.5em;
   font-family: "Poppins", sans-serif;
-  font-weight: bold;
   padding: 10px;
-  background: #123c69;
-  margin: 20px 0 0 0;
+  margin: 20px 0 10px 0;
 }
 
 .view p {
   font-family: "Open-Sans", sans-serif;
-  font-size: 14px;
+  font-size: 1em;
   position: relative;
-  color: #000;
-  padding: 10px 20px 20px;
+  padding: 10px 20px 0;
   text-align: center;
 }
 
-.view a.info {
-  display: inline-block;
-  text-decoration: none;
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.info {
   padding: 7px 14px;
+  text-align: center;
   color: #fff;
   background-color: #123c69;
-  margin-bottom: 20px;
+  margin: 0 10px 20px;
+  border-radius: 5px;
 }
 
 /* Controls the animation of the card */
@@ -87,6 +89,7 @@
 
 .view-copy .mask {
   width: 100%;
+  overflow: auto;
   background-color: rgba(146, 96, 91, 0.3);
   transform: translateX(-500px);
   opacity: 1;
@@ -118,4 +121,37 @@
 .view-copy:hover p {
   opacity: 1;
   transition-delay: 0.4s;
+}
+
+@media screen and (max-width: 468px) {
+  .info {
+    margin: 0 10px;
+  }
+
+  .view h2 {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+    margin: 10px 0 0 0;
+  }
+
+  .view .mask,
+  .view .content {
+    position: absolute;
+    overflow: scroll;
+    top: 0;
+    left: 0;
+  }
+
+  .view {
+    overflow: scroll;
+  }
+
+  .view h2 {
+    font-size: 18px;
+  }
+
+  .view p {
+    font-size: 12px;
+  }
 }

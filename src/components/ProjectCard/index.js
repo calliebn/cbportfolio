@@ -11,9 +11,13 @@ const ProjectCard = (props) => {
                         <img alt={props.name} src={props.image} />
                         <div className="mask">
                             <a href={props.deployed}><h2>{props.name}</h2></a>
-                            <p>{props.blurb}</p>
-                            <a href={props.github} target="_blank" rel="noopener noreferrer" className="info">Visit GitHub</a>
-                            <a href={props.deployed} target="_blank" rel="noopener noreferrer" className="info">Visit Site</a>
+                            <p>{props.point1}</p>
+                            <p>{props.point2}</p>
+                            <p>{props.point3}</p>
+                            <div className="container">
+                                <a href={props.github} target="_blank" rel="noopener noreferrer" className="info">Visit GitHub</a>
+                                <a href={props.deployed} target="_blank" rel="noopener noreferrer" className="info">Visit Site</a>
+                            </div>
                             {/* <a href={props.github} target="_blank" rel="noopener noreferrer"><img className="gitcat" src="./assets/github.png" alt="GitHub Logo" /></a>
                             <a href={props.deployed} target="_blank" rel="noopener noreferrer" ><i className="deploy fas fa-external-link-alt"></i></a>*/}
                         </div>
