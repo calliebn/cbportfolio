@@ -17,6 +17,7 @@ function ProjectInfo() {
                         key={project.id}
                         image={project.image}
                         name={project.name}
+                        blurb={project.blurb}
                         github={project.github}
                         deployed={project.deployed}
                     />

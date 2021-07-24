@@ -3,6 +3,7 @@
         "id": 1,
         "name": "Stashbusters",
         "image": "./assets/stash.png",
+        "blurb": "This site was built using handlebars, SQL",
         "deployed": "https://nameless-mesa-29731.herokuapp.com/",
         "github": "https://github.com/calliebn/stashbusters"
     },
