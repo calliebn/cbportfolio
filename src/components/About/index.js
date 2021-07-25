@@ -9,8 +9,9 @@ function AboutInfo() {
                 <img src="./assets/cbn.jpg" alt="portrait of Callie Nipper" />
             </div>
             <h1 className="title">Who&#8217;s That Girl?</h1>
-            <h2 className="skills">I&#8217;m a fullstack developer from Portland, Oregon</h2>
-            <p>I am a Web Developer with a background in Graphic Design. I enjoy creating functional and aesthetically pleasing applications while keeping the User&#8217;s experience in mind.</p>
+            <h2 className="skills">I&#8217;m a full-stack developer from Portland, Oregon</h2>
+            <p>I am a full stack developer utilizing a background in graphic design to build agile websites and applications. My background as a graphic designer and a passion for learning led me down the path of designing for digital publications. As I built digital publications on a custom platform, I realized that I wanted a deeper connection to the product that was being created. I am a graduate of the University of Oregon’s Coding Bootcamp and bring over a decade of experience in creating on a digital platform.</p>
+            <p>Whether coding or learning a new craft, I am a maker at heart. When I’m not walking my dogs, I can be found making concrete planters, crocheting, or curled up with a good book. I am happiest when creating and look forward to making something with you!</p>
             <a className="btn" href="./assets/resume_052021.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
             <div className="trades">
                 <h2>Skills</h2>
@@ -18,24 +19,29 @@ function AboutInfo() {
                 <div className="skillset">
                     <p>React</p>
                     <p>JavaScript</p>
-                    <p>CSS</p>
-                    <p>HTML</p>
+                    <p>jQuery</p>
+                    <p>CSS3</p>
+                    <p>HTML5</p>
+                    <p>Bootstrap</p>
+                    <p>Bulma</p>
                 </div>
                 <h2 className="skills">Backend</h2>
                 <div className="skillset">
                     <p>Node.js</p>
-                    <p>Express</p>
-                    <p>Git</p>
-                    <p>SQL</p>
+                    <p>Express.js</p>
+                    <p>MySQL</p>
                     <p>MongoDB</p>
                 </div>
                 <h2 className="skills">Other Skills</h2>
                 <div className="skillset">
-                    <p>Adobe InDesign</p>
-                    <p>Adobe Photoshop</p>
+                    <p>Adobe Creative Cloud</p>
+                    <p>Responsive Web Design</p>
+                    <p>Git</p>
+                    <p>GitHub</p>
                     <p>Salesforce</p>
+                    <p>Heroku</p>
                 </div>
-                <h2 className="skills">Interests</h2>
+                <h2>Interests</h2>
                 <div className="skillset">
                     <p>Reading</p>
                     <p>Roller Skating</p>
