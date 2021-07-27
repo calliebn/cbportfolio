@@ -1,5 +1,6 @@
 header {
   background-color: #123c69;
+  padding: 10px 20px;
 }
 
 a {
@@ -13,17 +14,15 @@ a:hover {
 
 .nav-item {
   font-family: "Poppins", sans-serif;
-  padding-right: 20px;
+  font-size: 1.1em;
+  padding-left: 50px;
 }
 
 .navbar-toggler-icon {
   color: #fff;
 }
 
-.nav-brand {
-  float: left;
-  padding: 20px;
-}
-.navbar-nav {
-  float: right;
+.collapse {
+  display: flex;
+  justify-content: flex-end;
 }

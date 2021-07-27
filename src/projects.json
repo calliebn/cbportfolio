@@ -4,8 +4,8 @@
         "id": 1,
         "name": "Employee Directory",
         "image": "./assets/emp_dir.png",
-        "point1": "A React app that allows the user to search and sort employees",
-        "point2": "Created the directory's front-end",
+        "point1": "A React App that allows the user to search and sort employees",
+        "point2": "Created the directory's front end",
         "point3": "Directory utilizes React, React Router, React Dom, Axios, and Bootstrap",
         "deployed": "https://calliebn.github.io/employee_directory/",
         "github": "https://github.com/calliebn/employee_directory"
@@ -15,9 +15,9 @@
         "id": 2,
         "name": "Budget Tracker",
         "image": "./assets/budget_app.png",
-        "point1": "A Progressive Web app that allows the user to keep track of their finances on-and-offline",
+        "point1": "A Progressive Web App that allows the user to keep track of their finances on and offline",
         "point2": "Created offline access and functionality",
-        "point3": "App utilizes Express, Mongoose and Morgan",
+        "point3": "App utilizes Express, Mongoose, and Morgan",
         "deployed": "https://enigmatic-tor-49600.herokuapp.com/",
         "github": "https://github.com/calliebn/budget_tracker"
     },
@@ -26,9 +26,9 @@
         "id": 3,
         "name": "Stashbusters",
         "image": "./assets/stash.png",
-        "point1": "Developed a full-stack application that allows registered users to keep track of their fiber stash.",
-        "point2": "Acted as Project Manager. Created API Routes, CSS, and Handlebars.",
-        "point3": "App ulitizes bcrypt, Express.js, Handlebars.js, Express-Session, MySQL2 and Sequelize",
+        "point1": "Developed a full stack application that allows registered users to keep track of their fiber stash",
+        "point2": "Acted as Project Manager. Created API Routes, CSS, and Handlebars",
+        "point3": "App ulitizes bcrypt, Express.js, Handlebars.js, Express-Session, MySQL2, and Sequelize",
         "deployed": "https://nameless-mesa-29731.herokuapp.com/",
         "github": "https://github.com/calliebn/stashbusters"
     },
@@ -38,7 +38,7 @@
         "name": "Tech Blog",
         "image": "./assets/tech_blog.png",
         "point1": "Developed a CMS-style blog site that will allow users to create posts and add comments",
-        "point2": "Created front-end and back-end of the site",
+        "point2": "Created front end and back end of the site",
         "point3": "Site utilizes bcrypt, Express-Session, Handlebars.js, MySQL2 and Sequelize",
         "deployed": "https://immense-citadel-93901.herokuapp.com/",
         "github": "https://github.com/calliebn/tech_blog"
@@ -49,7 +49,7 @@
         "name": "Carpe Diem",
         "image": "./assets/carpe_diem.png",
         "point1": "A site that allows the user to create a to-do list",
-        "point2": "Acted as Project Manager. Created API calls, refactored code, co-created CSS ",
+        "point2": "Acted as Project Manager. Created API calls, refactored code and CSS",
         "point3": "Site utilizes HTML5, CSS, JavaScript, and Bulma",
         "deployed": "https://calliebn.github.io/carpe_diem/",
         "github": "https://github.com/calliebn/carpe_diem"
