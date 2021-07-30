@@ -98,7 +98,7 @@
   width: 100%;
   overflow: auto;
   background-color: rgba(146, 96, 91, 0.3);
-  transform: translateX(-500px);
+  transform: translateX(-700px);
   opacity: 1;
   transition: all 0.4s ease-in-out;
 }
@@ -122,7 +122,7 @@
 }
 
 .view-copy:hover img {
-  transform: translateX(500px);
+  transform: translateX(700px);
   transition-delay: 0.1s;
 }
 
