@@ -12,7 +12,7 @@ function AboutInfo() {
             <h2 className="skills">I&#8217;m a full stack developer from Portland, Oregon</h2>
             <p>I am a full stack developer utilizing a background in graphic design to build agile websites and applications. My background as a graphic designer and my passion for learning led me down the path of designing for digital publications. As I built digital publications on a custom platform, I realized that I wanted a deeper connection to the product that was being created. I am a graduate of the University of Oregon’s Coding Bootcamp and bring more than a decade of experience in working within a digital platform.</p>
             <p>Whether coding or learning a new craft, I am a maker at heart. When I’m not walking my dogs, I can be found making concrete planters, crocheting, or curling up with a good book.</p>
-            <a className="btn" href="./assets/resume_072021.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a className="btn" href="./assets/resume_082021.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
             <div className="trades">
                 <h2>Skills</h2>
                 <h2 className="skills">Front End</h2>
